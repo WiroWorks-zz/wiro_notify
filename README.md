@@ -6,9 +6,11 @@ its a nice looking notify UI for FiveM
 
 for client side : TriggerEvent('wiro_notify:show', (type), (message), (duration))
 
+example : TriggerEvent('wiro_notify:show', "success", "You did it!", 3000)
+
 for server side : TriggerEvent('wiro_notify:show', source, (type), (message), (duration))   -- this might be doesn't work idk
 
-Notification Styles
+Notification Types
 
 * success
 * error
