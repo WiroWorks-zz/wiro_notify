@@ -1,8 +1,5 @@
 RegisterNetEvent("wiro_notify:show")
 AddEventHandler("wiro_notify:show", function(type, message, duration)
-    print(type)
-    print(message)
-    print(duration)
 
     if duration == nil then
         duration = 4000
