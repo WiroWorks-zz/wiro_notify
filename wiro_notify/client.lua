@@ -4,10 +4,9 @@ AddEventHandler("wiro_notify:show", function(type, message, duration)
     print(message)
     print(duration)
 
-    if (duration == nil) 
-    {
+    if duration == nil then
         duration = 4000
-    }
+    end
 
     SendNUIMessage({
         type = type,
